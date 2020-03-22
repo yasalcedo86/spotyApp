@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SpotifyService } from 'src/app/services/spotify.service';
-import { pipe } from 'rxjs';
-import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-artista',
